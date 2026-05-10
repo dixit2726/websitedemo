@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Reservations | EXECUTIVERESTAURANT</title>
+    <meta name="description" content="Secure your table at EXECUTIVERESTAURANT. Fine dining reservations and event inquiries in Beverly Hills.">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="cursor"></div>
+
+    <a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat with us</span>
+    </a>
+
+    <a href="tel:+15556242725" class="call-float">
+        <i class="fas fa-phone-alt"></i>
+        <span>Call Now</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="scrolled">
+        <a href="/" class="logo">EXECUTIVERESTAURANT</a>
+        <div class="nav-links">
+            <a href="/#about">About</a>
+            <a href="/#menu">Menu</a>
+            <a href="/#gallery">Gallery</a>
+            <a href="/#testimonials">Reviews</a>
+            <a href="/contact.html" class="active">Contact</a>
+        </div>
+        <a href="/contact.html" class="btn-premium">Reserve Now</a>
+    </nav>
+
+    <!-- Hero Secondary -->
+    <section class="hero-mini" style="height: 50vh; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('/about.png'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <span class="section-tag">Reservations</span>
+            <h1 class="text-reveal"><span>Get In Touch</span></h1>
+        </div>
+    </section>
+
+    <!-- Reservations & Enquiries Section -->
+    <section class="contact" id="contact" style="padding-top: 150px;">
+        <div class="about" style="align-items: start;">
+            <div>
+                <span class="section-tag">Visit Us</span>
+                <h2 class="section-title">Secure Your Table</h2>
+                <div style="margin-top: 40px;">
+                    <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Address</h4>
+                    <p>123 Luxury Way, Beverly Hills,<br>CA 90210, United States</p>
+                </div>
+                <div style="margin-top: 30px;">
+                    <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Hours</h4>
+                    <p>Mon - Sun: 11:00 AM - 11:00 PM</p>
+                </div>
+                <div style="margin-top: 30px;">
+                    <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Contact</h4>
+                    <p>
+                        <a href="tel:+15556242725" style="color: white; text-decoration: none;">+1 (555) EXECUTIVERESTAURANT</a><br>
+                        <a href="mailto:reserve@executiverestaurant.com" style="color: white; text-decoration: none;">reserve@executiverestaurant.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="glass" style="padding: 40px; overflow: hidden;">
+                <div class="map-container" style="margin-bottom: 30px; height: 400px; border-radius: 12px; overflow: hidden; border: 1px solid var(--glass-border);">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.453303643798!2d-118.40280452339396!3d34.07068201676602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc0ec693a38d%3A0x673410542387a270!2sBeverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1715360000000!5m2!1sen!2sus" 
+                        width="100%" height="100%" style="border:0; filter: invert(90%) hue-rotate(180deg) brightness(95%) contrast(90%);" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+                <form id="contact-form">
+                    <div style="margin-bottom: 20px;">
+                        <input type="text" placeholder="Full Name" style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <input type="email" placeholder="Email Address" style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <select style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;">
+                            <option>Reservation</option>
+                            <option>Catering</option>
+                            <option>Private Event</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 30px;">
+                        <textarea placeholder="Your Message" rows="5" style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn-premium" style="width: 100%;">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <a href="/" class="logo" style="margin-bottom: 30px; display: block;">EXECUTIVERESTAURANT</a>
+            <p style="color: var(--text-secondary); max-width: 300px;">Crafting the finest Indian culinary experiences in the USA. A blend of tradition, luxury, and taste.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#menu">Menu</a></li>
+                <li><a href="/#gallery">Gallery</a></li>
+                <li><a href="/#testimonials">Reviews</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Support</h4>
+            <ul class="footer-links">
+                <li><a href="tel:+15556242725">Call Support</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Social</h4>
+            <ul class="footer-links">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
