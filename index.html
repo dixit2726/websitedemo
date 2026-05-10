@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Executive Restaurant | Ultra-Premium Indian Fine Dining USA</title>
+    <meta name="description" content="Experience the pinnacle of Indian luxury dining. Authentic flavors, cinematic ambiance, and world-class service in the heart of the USA.">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script type="module" crossorigin src="./assets/main-Be_R7HaX.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-B4i2GQLc.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div id="cursor"></div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat with us</span>
+    </a>
+
+    <!-- Floating Call Button -->
+    <a href="tel:+15556242725" class="call-float">
+        <i class="fas fa-phone-alt"></i>
+        <span>Call Now</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">EXECUTIVERESTAURANT</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a href="contact.html" class="btn-premium">Reserve Now</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <span class="section-tag">A Culinary Masterpiece</span>
+            <h1 class="text-reveal"><span>Elevating Dining to a <br> Luxury Experience</span></h1>
+            <p>Elevating Tradition To Luxury</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn-premium">Explore Menu</a>
+                <a href="#about" class="btn-premium" style="margin-left: 20px;">About</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./about.png" alt="Luxury Interior">
+        </div>
+        <div class="about-content">
+            <span class="section-tag">About Us</span>
+            <h2 class="section-title">Where Heritage <br> Meets Modernity</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 30px; font-size: 1.1rem;">
+                EXECUTIVERESTAURANT is not just a restaurant; it's a sensory journey through the rich tapestry of Indian spice and culture. Born from a passion for authentic flavors and a vision for luxury, we bring the grandeur of India's royal kitchens to the modern American landscape.
+            </p>
+            <p style="color: var(--text-secondary); margin-bottom: 40px;">
+                Every dish is a carefully crafted masterpiece, using age-old techniques and the finest locally sourced ingredients, presented with contemporary elegance.
+            </p>
+            <a href="#" class="btn-premium">The Founder's Vision</a>
+        </div>
+    </section>
+
+    <!-- Menu Showcase -->
+    <section class="menu" id="menu">
+        <div style="text-align: center; margin-bottom: 80px;">
+            <span class="section-tag">Curated Selection</span>
+            <h2 class="section-title">Signature Creations</h2>
+        </div>
+
+        <div class="menu-tabs" style="overflow-x: auto; white-space: nowrap; padding-bottom: 15px; justify-content: flex-start; max-width: 100vw; -webkit-overflow-scrolling: touch;">
+            <button class="tab-btn active" data-filter="all">All</button>
+            <button class="tab-btn" data-filter="veg-app">Appetizers (Veg)</button>
+            <button class="tab-btn" data-filter="non-veg-app">Appetizers (Non-Veg)</button>
+            <button class="tab-btn" data-filter="specials">Specials</button>
+            <button class="tab-btn" data-filter="rice">Rice & Biryani</button>
+            <button class="tab-btn" data-filter="tandoor">Tandoori Oven</button>
+            <button class="tab-btn" data-filter="veg-curry">Vegetable Curries</button>
+            <button class="tab-btn" data-filter="chicken">Chicken Curries</button>
+            <button class="tab-btn" data-filter="lamb">Lamb & Goat</button>
+            <button class="tab-btn" data-filter="seafood">Seafood Curries</button>
+            <button class="tab-btn" data-filter="breads">Breads</button>
+            <button class="tab-btn" data-filter="desserts">Desserts</button>
+            <button class="tab-btn" data-filter="beverages">Beverages</button>
+            <button class="tab-btn" data-filter="accom">Accompaniments</button>
+        </div>
+
+        <div class="menu-grid">
+            <!-- Appetizers Veg -->
+            <div class="menu-card" data-category="veg-app">
+                <img src="./menu-veg-app.png" alt="Paneer Tikka">
+                <div class="menu-card-overlay glass">
+                    <h3>Paneer Tikka</h3>
+                    <p class="price">$18</p>
+                </div>
+            </div>
+            <!-- Appetizers Non-Veg -->
+            <div class="menu-card" data-category="non-veg-app">
+                <img src="./menu-nonveg-app.png" alt="Tandoori Prawns">
+                <div class="menu-card-overlay glass">
+                    <h3>Tandoori Jumbo Prawns</h3>
+                    <p class="price">$28</p>
+                </div>
+            </div>
+            <!-- Specials -->
+            <div class="menu-card" data-category="specials">
+                <img src="./hero.png" alt="Royal Feast">
+                <div class="menu-card-overlay glass">
+                    <h3>The Royal Feast</h3>
+                    <p class="price">$85</p>
+                </div>
+            </div>
+            <!-- Rice & Biryani -->
+            <div class="menu-card" data-category="rice">
+                <img src="./gallery-2.png" alt="Dum Biryani">
+                <div class="menu-card-overlay glass">
+                    <h3>Saffron Dum Biryani</h3>
+                    <p class="price">$32</p>
+                </div>
+            </div>
+            <!-- Tandoor -->
+            <div class="menu-card" data-category="tandoor">
+                <img src="./about.png" alt="Tandoori Oven">
+                <div class="menu-card-overlay glass">
+                    <h3>Murgh Malai Tikka</h3>
+                    <p class="price">$26</p>
+                </div>
+            </div>
+            <!-- Chicken -->
+            <div class="menu-card" data-category="chicken">
+                <img src="./menu-chicken.png" alt="Butter Chicken">
+                <div class="menu-card-overlay glass">
+                    <h3>Executive Butter Chicken</h3>
+                    <p class="price">$28</p>
+                </div>
+            </div>
+            <!-- Seafood -->
+            <div class="menu-card" data-category="seafood">
+                <img src="./menu-seafood.png" alt="Sea Bass">
+                <div class="menu-card-overlay glass">
+                    <h3>Tandoori Sea Bass</h3>
+                    <p class="price">$45</p>
+                </div>
+            </div>
+            <!-- Breads -->
+            <div class="menu-card" data-category="breads">
+                <img src="./menu-breads.png" alt="Breads">
+                <div class="menu-card-overlay glass">
+                    <h3>Truffle Garlic Naan</h3>
+                    <p class="price">$12</p>
+                </div>
+            </div>
+            <!-- Desserts -->
+            <div class="menu-card" data-category="desserts">
+                <img src="./menu-desserts.png" alt="Desserts">
+                <div class="menu-card-overlay glass">
+                    <h3>Kesar Pista Kulfi</h3>
+                    <p class="price">$14</p>
+                </div>
+            </div>
+            <!-- Vegetable Curries -->
+            <div class="menu-card" data-category="veg-curry">
+                <img src="./menu-veg-curry.png" alt="Dal Makhani">
+                <div class="menu-card-overlay glass">
+                    <h3>Slow Cooked Dal Makhani</h3>
+                    <p class="price">$22</p>
+                </div>
+            </div>
+            <!-- Lamb & Goat -->
+            <div class="menu-card" data-category="lamb">
+                <img src="./menu-1.png" alt="Rogan Josh">
+                <div class="menu-card-overlay glass">
+                    <h3>Kashmiri Rogan Josh</h3>
+                    <p class="price">$34</p>
+                </div>
+            </div>
+            <!-- Beverages -->
+            <div class="menu-card" data-category="beverages">
+                <img src="./menu-beverages.png" alt="Mango Lassi">
+                <div class="menu-card-overlay glass">
+                    <h3>Saffron Mango Lassi</h3>
+                    <p class="price">$10</p>
+                </div>
+            </div>
+            <!-- Accompaniments -->
+            <div class="menu-card" data-category="accom">
+                <img src="./gallery-3.png" alt="Accompaniments">
+                <div class="menu-card-overlay glass">
+                    <h3>Executive Chutney Tray</h3>
+                    <p class="price">$8</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="hero-content" style="margin: 0 auto;">
+            <span class="section-tag">Exquisite Celebrations</span>
+            <h2 class="section-title">Private Events & Galas</h2>
+            <p style="color: white; margin-bottom: 40px;">From intimate gatherings to grand wedding celebrations, <br> we provide an ambiance that turns moments into memories.</p>
+            <a href="#" class="btn-premium">Inquire Now</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features">
+        <div class="menu-grid" style="grid-template-columns: repeat(3, 1fr);">
+            <div class="glass" style="padding: 60px; text-align: center;">
+                <h3 style="color: var(--accent-gold); margin-bottom: 20px;">Authentic Spices</h3>
+                <p style="color: var(--text-secondary);">Directly sourced from the heart of Kerala and Rajasthan.</p>
+            </div>
+            <div class="glass" style="padding: 60px; text-align: center;">
+                <h3 style="color: var(--accent-gold); margin-bottom: 20px;">Master Chefs</h3>
+                <p style="color: var(--text-secondary);">Award-winning culinary artists with 20+ years of experience.</p>
+            </div>
+            <div class="glass" style="padding: 60px; text-align: center;">
+                <h3 style="color: var(--accent-gold); margin-bottom: 20px;">Royal Service</h3>
+                <p style="color: var(--text-secondary);">Unmatched hospitality that treats every guest like royalty.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div style="text-align: center; margin-bottom: 80px;">
+            <span class="section-tag">Visual Journey</span>
+            <h2 class="section-title">The Executive Restaurant Experience</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="./gallery-1.png" alt="Cocktail">
+            </div>
+            <div class="gallery-item tall">
+                <img src="./about.png" alt="Interior">
+            </div>
+            <div class="gallery-item">
+                <img src="./gallery-2.png" alt="Biryani">
+            </div>
+            <div class="gallery-item">
+                <img src="./gallery-3.png" alt="Mood">
+            </div>
+            <div class="gallery-item wide">
+                <img src="./hero.png" alt="Hero Platter">
+            </div>
+            <div class="gallery-item">
+                <img src="./gallery-4.png" alt="Butter Chicken">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div style="text-align: center; margin-bottom: 80px;">
+            <span class="section-tag">Guest Experiences</span>
+            <h2 class="section-title">What Our Guests Say</h2>
+        </div>
+        <div class="menu-grid" style="grid-template-columns: repeat(3, 1fr);">
+            <div class="glass" style="padding: 50px;">
+                <div style="color: var(--accent-gold); margin-bottom: 20px;">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p style="font-style: italic; margin-bottom: 25px; color: var(--text-secondary);">"The most authentic and luxury Indian dining experience in Beverly Hills. The Saffron Lamb was exceptional!"</p>
+                <h4 style="color: white;">- James Sterling</h4>
+            </div>
+            <div class="glass" style="padding: 50px;">
+                <div style="color: var(--accent-gold); margin-bottom: 20px;">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p style="font-style: italic; margin-bottom: 25px; color: var(--text-secondary);">"From the decor to the service, everything screams royalty. Truly an Executive treatment."</p>
+                <h4 style="color: white;">- Elena Rodriguez</h4>
+            </div>
+            <div class="glass" style="padding: 50px;">
+                <div style="color: var(--accent-gold); margin-bottom: 20px;">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p style="font-style: italic; margin-bottom: 25px; color: var(--text-secondary);">"A visual and culinary journey. The cocktails are inspired and the atmosphere is unmatched."</p>
+                <h4 style="color: white;">- Dr. Michael Chen</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservations & Enquiries Section -->
+    <section class="contact" id="contact">
+        <div class="about" style="align-items: start;">
+            <div>
+                <span class="section-tag">Reservations</span>
+                <h2 class="section-title">Secure Your Table</h2>
+                <div style="margin-top: 40px;">
+                    <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Address</h4>
+                    <p>123 Luxury Way, Beverly Hills,<br>CA 90210, United States</p>
+                </div>
+                <div style="margin-top: 30px;">
+                    <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Hours</h4>
+                    <p>Mon - Sun: 11:00 AM - 11:00 PM</p>
+                </div>
+                <div style="margin-top: 30px;">
+                    <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Contact</h4>
+                    <p>
+                        <a href="tel:+15556242725" style="color: white; text-decoration: none;">+1 (555) EXECUTIVERESTAURANT</a><br>
+                        <a href="mailto:reserve@executiverestaurant.com" style="color: white; text-decoration: none;">reserve@executiverestaurant.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="glass" style="padding: 40px; overflow: hidden;">
+                <div class="map-container" style="margin-bottom: 30px; height: 300px; border-radius: 12px; overflow: hidden; border: 1px solid var(--glass-border);">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.453303643798!2d-118.40280452339396!3d34.07068201676602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc0ec693a38d%3A0x673410542387a270!2sBeverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1715360000000!5m2!1sen!2sus" 
+                        width="100%" height="100%" style="border:0; filter: invert(90%) hue-rotate(180deg) brightness(95%) contrast(90%);" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+                <form id="contact-form">
+                    <div style="margin-bottom: 20px;">
+                        <input type="text" placeholder="Full Name" style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <input type="email" placeholder="Email Address" style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <select style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;">
+                            <option>Reservation</option>
+                            <option>Catering</option>
+                            <option>Private Event</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 30px;">
+                        <textarea placeholder="Your Message" rows="5" style="width: 100%; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white; border-radius: 8px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn-premium" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <a href="#" class="logo" style="margin-bottom: 30px; display: block;">EXECUTIVERESTAURANT</a>
+            <p style="color: var(--text-secondary); max-width: 300px;">Crafting the finest Indian culinary experiences in the USA. A blend of tradition, luxury, and taste.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#events">Private Events</a></li>
+                <li><a href="#catering">Catering</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Support</h4>
+            <ul class="footer-links">
+                <li><a href="tel:+15556242725">Call Support</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Social</h4>
+            <ul class="footer-links">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
